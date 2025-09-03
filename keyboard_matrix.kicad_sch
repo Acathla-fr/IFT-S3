@@ -1,0 +1,3624 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b4160d23-0a7b-42f2-a2f6-2bbe9d9e5480")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Diode:1N4148WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at -1.27 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PTS526_SK15_SMTR2_LFS"
+				(at -10.922 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "PTS526SK15SMTR2LFS"
+				(at -9.652 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
+				(at -10.922 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tact 5.2 x 5.2, 1.5 mm H, 260gf, G leads, No ground pin, metal actuator"
+				(at -10.922 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.65"
+				(at -10.922 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "C & K COMPONENTS"
+				(at -10.922 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
+				(at -10.922 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "611-PTS526SK15SMR2L"
+				(at -10.922 -23.876 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
+				(at -10.922 -26.416 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "PTS526 SK15 SMTR2 LFS"
+				(at -10.922 -28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pts526-sk15-smtr2-lfs/ck?region=nac"
+				(at -10.922 -31.496 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "PTS526_SK15_SMTR2_LFS_0_1"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.302 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.302 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PTS526_SK15_SMTR2_LFS_1_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 95.25 39.37)
+		(end 213.36 116.84)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3b790766-0d58-447e-be6f-04dc244b0bf0)
+	)
+	(text "Left"
+		(exclude_from_sim no)
+		(at 124.46 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0664b926-8e5e-4476-82e8-6618eec91af9")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 184.15 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12200a05-f765-4b38-9ba6-d7d3d457060b")
+	)
+	(text "Select"
+		(exclude_from_sim no)
+		(at 153.416 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74f723f2-3830-49a3-9af0-cc07f3fdd236")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 184.15 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8175a266-84e4-4702-84bd-38ec45e9e05a")
+	)
+	(text "Keyboard matrix"
+		(exclude_from_sim no)
+		(at 99.06 45.72 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "939467f9-0fa4-43e8-adea-e8a3f188f841")
+	)
+	(text "Right"
+		(exclude_from_sim no)
+		(at 153.416 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9bc5e561-c574-49eb-bb4e-ee7b12fde247")
+	)
+	(text "Start"
+		(exclude_from_sim no)
+		(at 153.67 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a922df7f-256f-4f49-97d4-ae7c2780f4b9")
+	)
+	(text "Down"
+		(exclude_from_sim no)
+		(at 124.46 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd5b5cd6-d776-4430-9ec0-7c758ac355f5")
+	)
+	(text "Up"
+		(exclude_from_sim no)
+		(at 124.714 69.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e53fc701-a03a-4625-9a2c-c3a7ddce4629")
+	)
+	(junction
+		(at 175.26 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "013d2eac-ebfa-4fcd-b1f7-cc1263d21dd1")
+	)
+	(junction
+		(at 191.77 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04bb5547-a48e-460c-ba28-317da2c6ba6a")
+	)
+	(junction
+		(at 144.78 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10209094-cb6f-46a3-8967-2ab1a671ce77")
+	)
+	(junction
+		(at 191.77 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "144d707c-0f23-42e5-8854-3310011f4226")
+	)
+	(junction
+		(at 196.85 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "168e54af-7d4b-4688-bd11-8676a18cced9")
+	)
+	(junction
+		(at 132.08 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19f2470d-7aa8-4070-84a0-7896217b0f47")
+	)
+	(junction
+		(at 110.49 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3365ddc9-41b7-4198-a902-8b1cb7e7a555")
+	)
+	(junction
+		(at 196.85 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "344b03ca-7114-4505-9d69-ccbc30e1963e")
+	)
+	(junction
+		(at 110.49 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35563acf-061a-4121-a406-f8298b1ead53")
+	)
+	(junction
+		(at 161.29 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36438d82-2555-432d-9e7e-5040871979f5")
+	)
+	(junction
+		(at 110.49 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45abc885-f3d8-4910-8bd8-5fde1e993548")
+	)
+	(junction
+		(at 167.64 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a5140bc-0863-450a-b122-e4ff90f031fa")
+	)
+	(junction
+		(at 160.02 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c8e2c34-cd6e-4a03-9bcb-24e48edada35")
+	)
+	(junction
+		(at 167.64 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ec00f83-1132-4f64-9c79-6f14751dc77c")
+	)
+	(junction
+		(at 167.64 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56cf9ad4-a316-461c-92ac-d27276848baa")
+	)
+	(junction
+		(at 110.49 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "629ce07d-4562-46f9-bee4-a85a8f7133c5")
+	)
+	(junction
+		(at 110.49 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f88ea20-c599-4403-93cf-c1ff6dd13c32")
+	)
+	(junction
+		(at 144.78 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7acc9fdb-6743-4ca1-b048-764ec2863fe3")
+	)
+	(junction
+		(at 132.08 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c8e3d46-7209-4d61-8d7b-e446e8a9c7a3")
+	)
+	(junction
+		(at 144.78 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87769396-cf71-4898-abbd-cd1b6f0ced89")
+	)
+	(junction
+		(at 144.78 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e131d94-b64e-4e4c-bbf4-72ea6beb01c6")
+	)
+	(junction
+		(at 144.78 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8835ad2-75a3-427f-bedd-3b76fc1f9172")
+	)
+	(junction
+		(at 175.26 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d87ae13a-5ced-4580-b95a-8a0a34a0ea8f")
+	)
+	(junction
+		(at 175.26 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef0ed49e-3486-4091-959a-92009f062a0a")
+	)
+	(junction
+		(at 132.08 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4af05d2-4cca-4acc-9062-a789c7397179")
+	)
+	(junction
+		(at 161.29 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff068056-6175-4685-8d6a-b79b90946448")
+	)
+	(wire
+		(pts
+			(xy 119.38 107.95) (xy 132.08 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bab6bce-5a93-46c5-b653-9370e1bf22c3")
+	)
+	(wire
+		(pts
+			(xy 167.64 113.03) (xy 186.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c440024-565e-4ef0-8796-ade0b96e62a7")
+	)
+	(wire
+		(pts
+			(xy 160.02 55.88) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb57c5e-8ba8-4e3b-9561-59baf98ff145")
+	)
+	(wire
+		(pts
+			(xy 160.02 71.12) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121f4e1f-4592-4bfd-8e67-5036306aa30a")
+	)
+	(wire
+		(pts
+			(xy 175.26 60.96) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141062a6-cf6a-4f11-90a8-305554e8f386")
+	)
+	(wire
+		(pts
+			(xy 119.38 105.41) (xy 119.38 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1476fa39-13d8-4e80-a49f-178b7fd79729")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ee8fdc-d491-4be8-be93-370d2a4e7fe8")
+	)
+	(wire
+		(pts
+			(xy 161.29 86.36) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18afca04-d169-461d-962a-37d4a21aaa34")
+	)
+	(wire
+		(pts
+			(xy 196.85 73.66) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1921504e-d477-4436-ba4c-4008bcecce9e")
+	)
+	(wire
+		(pts
+			(xy 179.07 66.04) (xy 179.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199c45e3-15b9-4039-8576-326a15d3fdf7")
+	)
+	(wire
+		(pts
+			(xy 144.78 60.96) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7ad7ae-ebac-4d9e-b845-fb2f74333c6d")
+	)
+	(wire
+		(pts
+			(xy 175.26 55.88) (xy 191.77 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "239118ac-f8e6-46c1-9ccb-8c75c47ff714")
+	)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 167.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254a5c25-9f4f-4a19-ab31-64660f91c2a3")
+	)
+	(wire
+		(pts
+			(xy 130.81 55.88) (xy 110.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3aa8ba-73b4-4a8c-a06d-b7b079d1a1ac")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 137.16 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec4f720-be82-4f38-886e-547c231dd4e4")
+	)
+	(wire
+		(pts
+			(xy 191.77 76.2) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3423d99b-304f-4985-9825-d7c3f14151b5")
+	)
+	(wire
+		(pts
+			(xy 147.32 71.12) (xy 160.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3440bed3-da7f-4866-8647-986b6a393605")
+	)
+	(wire
+		(pts
+			(xy 130.81 66.04) (xy 132.08 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5de329-7085-4a86-a5a0-267e3c8a3c64")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 110.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6adca1-afa0-43fd-81b7-2ff46c113679")
+	)
+	(wire
+		(pts
+			(xy 144.78 100.33) (xy 148.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef0890b-140e-477f-9fc0-7e06306d6263")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443c1b46-1f4d-42ff-95da-c27ac1ad6f3f")
+	)
+	(wire
+		(pts
+			(xy 196.85 93.98) (xy 207.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49eefe53-0fce-4ad0-a8af-3cabdd342cd6")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 132.08 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2d474c-105c-42a8-8839-45ee76f637d1")
+	)
+	(wire
+		(pts
+			(xy 167.64 93.98) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be8a28c-20cc-425b-ba0d-c5b70737b03c")
+	)
+	(wire
+		(pts
+			(xy 148.59 105.41) (xy 148.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec89a1b-2fa3-432b-a246-810af54c0a90")
+	)
+	(wire
+		(pts
+			(xy 161.29 105.41) (xy 167.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515c3888-c1f1-4b3b-b755-6fb619d7beb0")
+	)
+	(wire
+		(pts
+			(xy 110.49 100.33) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520bab4d-ee2c-44d9-a558-b2291a440d5d")
+	)
+	(wire
+		(pts
+			(xy 132.08 95.25) (xy 110.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d208db-83c6-486f-a8dd-efa1db35bb7c")
+	)
+	(wire
+		(pts
+			(xy 144.78 55.88) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54459735-1f25-45c4-a76f-bac0f6e9e0e6")
+	)
+	(wire
+		(pts
+			(xy 191.77 66.04) (xy 196.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5794476e-5a26-4a76-9c51-9ca0c513fb0a")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5d8c20-f24d-4dc4-a902-ad9e0e023268")
+	)
+	(wire
+		(pts
+			(xy 137.16 74.93) (xy 167.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e500c50-1cb4-41f5-a7de-4db570e40785")
+	)
+	(wire
+		(pts
+			(xy 161.29 81.28) (xy 161.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a0683ac-a082-4131-b6a7-54ba63782768")
+	)
+	(wire
+		(pts
+			(xy 179.07 88.9) (xy 191.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aaa621b-6666-401b-8430-73c1db8fa4a5")
+	)
+	(wire
+		(pts
+			(xy 130.81 60.96) (xy 130.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735dba72-37bd-4ef7-afbd-0fca65556d85")
+	)
+	(wire
+		(pts
+			(xy 160.02 60.96) (xy 160.02 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d47d30-94ac-429d-becc-39e2940af790")
+	)
+	(wire
+		(pts
+			(xy 175.26 50.8) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74dcfa4e-d321-4cc2-8039-a812b0c279ed")
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797f1796-3c39-4bd9-a3e1-693424091952")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.9) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c883c1-912d-4550-a07a-0cf432af2c3a")
+	)
+	(wire
+		(pts
+			(xy 161.29 95.25) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5d365a-737b-472a-9a68-9242633d2d4d")
+	)
+	(wire
+		(pts
+			(xy 144.78 60.96) (xy 144.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4001e0-494f-42de-a2d6-c31699a813a0")
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 118.11 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8499362f-217e-4597-8b28-e634fe76f71c")
+	)
+	(wire
+		(pts
+			(xy 119.38 86.36) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6ed2e3-8701-4b88-9bb1-f9046950adbd")
+	)
+	(wire
+		(pts
+			(xy 167.64 73.66) (xy 167.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9116b873-d781-4220-8051-7c0aaef209b4")
+	)
+	(wire
+		(pts
+			(xy 161.29 107.95) (xy 161.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92492fa1-6773-4e5f-b45a-22936d1c48e7")
+	)
+	(wire
+		(pts
+			(xy 144.78 95.25) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d8c4a9-7cd5-4ccb-acd0-edf5007cb0a2")
+	)
+	(wire
+		(pts
+			(xy 161.29 100.33) (xy 161.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26d95c3-9737-4d6a-9a01-5e32d45b7995")
+	)
+	(wire
+		(pts
+			(xy 110.49 76.2) (xy 110.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a6293c-5d8e-4ef7-ba2d-9d59f09f8904")
+	)
+	(wire
+		(pts
+			(xy 132.08 105.41) (xy 137.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77ef014-a4fd-40e3-8f25-411b1e543c21")
+	)
+	(wire
+		(pts
+			(xy 118.11 71.12) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acaa8392-4ea3-43a0-8bc2-a97dbeca7df3")
+	)
+	(wire
+		(pts
+			(xy 191.77 88.9) (xy 191.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af74eeb6-dfe3-45c2-b6c6-db4bb692c131")
+	)
+	(wire
+		(pts
+			(xy 132.08 100.33) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2918bca-f4db-47f4-a58e-6b1b173cb3b1")
+	)
+	(wire
+		(pts
+			(xy 161.29 76.2) (xy 144.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53edee7-6a3d-43bf-9b57-caf69df3e362")
+	)
+	(wire
+		(pts
+			(xy 147.32 66.04) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e5356a-50b9-4cf1-b3b0-a299fb6286bf")
+	)
+	(wire
+		(pts
+			(xy 179.07 68.58) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85c541f-5b51-47bf-ae91-5588d2ad1d03")
+	)
+	(wire
+		(pts
+			(xy 148.59 86.36) (xy 148.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba782dbd-a5aa-47e8-84e8-02871917b2ef")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 132.08 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2646c9-ebe8-476c-a104-bf3a85d26f6b")
+	)
+	(wire
+		(pts
+			(xy 132.08 71.12) (xy 132.08 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8f7830-9eed-4ed0-8052-16c2b044a8bc")
+	)
+	(wire
+		(pts
+			(xy 132.08 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec3257c-7806-4957-8568-01ccdd1b79f7")
+	)
+	(wire
+		(pts
+			(xy 175.26 55.88) (xy 175.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3868d3c-9a84-40fc-8d93-ad2ea8d07e4f")
+	)
+	(wire
+		(pts
+			(xy 110.49 55.88) (xy 110.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c450c954-0c4f-4301-8812-da842d605de6")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50b9086-8ed0-40bf-a4cf-40e39cb30de4")
+	)
+	(wire
+		(pts
+			(xy 118.11 66.04) (xy 118.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd4541c-e2ca-42d9-a80d-89c43536758c")
+	)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 167.64 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5a77bf-98ae-49cf-8c46-b5a35312757b")
+	)
+	(wire
+		(pts
+			(xy 110.49 81.28) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9a9719-e812-4093-8245-8601dc127099")
+	)
+	(wire
+		(pts
+			(xy 167.64 74.93) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce43206b-3f5c-4e42-bb73-b98b4939caf0")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14a5f87-abb5-4d65-8ef6-a6ae64f7dd1d")
+	)
+	(wire
+		(pts
+			(xy 191.77 81.28) (xy 191.77 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a4638b-fca5-4d52-9e95-7d8924400a86")
+	)
+	(wire
+		(pts
+			(xy 110.49 81.28) (xy 110.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e80aa7-2e08-4711-b8b9-6fad344b4b57")
+	)
+	(wire
+		(pts
+			(xy 196.85 74.93) (xy 207.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b04d72-cea0-4938-bd34-d5fdf0b2db8d")
+	)
+	(wire
+		(pts
+			(xy 110.49 95.25) (xy 110.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8e3580-99b5-4d6e-b615-797279d755ee")
+	)
+	(wire
+		(pts
+			(xy 175.26 81.28) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd85269b-7703-47a3-8d75-b85917ad3f21")
+	)
+	(wire
+		(pts
+			(xy 191.77 60.96) (xy 191.77 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e033c51b-54ec-4d11-ad24-d4832251a974")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e165e832-48aa-403a-b0e9-dc8dc5a7d2f7")
+	)
+	(wire
+		(pts
+			(xy 179.07 86.36) (xy 179.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e187ba42-0696-4ef4-8425-14c3da787b7f")
+	)
+	(wire
+		(pts
+			(xy 132.08 66.04) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2273ede-02ad-413e-8777-e9b36b21ac94")
+	)
+	(wire
+		(pts
+			(xy 175.26 60.96) (xy 179.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ed8b7d-a9ab-4fdf-8dd7-421be0ef5c83")
+	)
+	(wire
+		(pts
+			(xy 191.77 86.36) (xy 196.85 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb782712-8657-4af7-aca5-bc25154ec01b")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 167.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb6f98f-8059-4cb3-9dd5-0c658562778f")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 175.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0c39f5-e37c-466e-9b89-c5f6dfa62457")
+	)
+	(wire
+		(pts
+			(xy 191.77 68.58) (xy 191.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f824d1-f110-4186-8d1c-70beb1480a13")
+	)
+	(wire
+		(pts
+			(xy 148.59 107.95) (xy 161.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f580f7ff-9620-4a44-91af-1c6d2c36b54b")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f800ede0-dba0-4f91-91f9-b97517806e33")
+	)
+	(wire
+		(pts
+			(xy 161.29 88.9) (xy 161.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe59d611-fa65-4ba0-a587-415769da6da2")
+	)
+	(hierarchical_label "O_3"
+		(shape input)
+		(at 175.26 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "476f54e6-f3c4-48af-8fa8-6cbb029a31c7")
+	)
+	(hierarchical_label "I_1"
+		(shape input)
+		(at 207.01 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fec3d1b-89c6-4275-a812-be62267b1466")
+	)
+	(hierarchical_label "I_2"
+		(shape input)
+		(at 207.01 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92442f9b-199c-4d85-a660-23e67a828e13")
+	)
+	(hierarchical_label "O_2"
+		(shape input)
+		(at 144.78 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afbd1ebf-b4d4-4360-be85-c5e6add0c627")
+	)
+	(hierarchical_label "I_3"
+		(shape input)
+		(at 186.69 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d608caf8-2b10-492e-9944-a177271feeed")
+	)
+	(hierarchical_label "O_1"
+		(shape input)
+		(at 110.49 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3e3f874-7af1-438e-86f3-497e9639b32a")
+	)
+	(symbol
+		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
+		(at 154.94 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "022f7b8e-3a1e-40c3-a7c1-f55c2a1c45c4")
+		(property "Reference" "SW6"
+			(at 154.94 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS526_SK15_SMTR2_LFS"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:PTS526SK15SMTR2LFS"
+			(at 145.288 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
+			(at 144.018 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tact 5.2 x 5.2, 1.5 mm H, 260gf, G leads, No ground pin, metal actuator"
+			(at 144.018 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.65"
+			(at 144.018 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 144.018 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
+			(at 144.018 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
+			(at 144.018 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
+			(at 144.018 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTS526 SK15 SMTR2 LFS"
+			(at 144.018 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pts526-sk15-smtr2-lfs/ck?region=nac"
+			(at 144.018 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ca083ae-6101-4622-b38b-13f879e1edb5")
+		)
+		(pin "3"
+			(uuid "aa6f6ea7-f781-46e6-9a2a-86c3b84bf3be")
+		)
+		(pin "1"
+			(uuid "f3ecb596-2023-4f27-a2f5-3d9cd88f189e")
+		)
+		(pin "4"
+			(uuid "de3de1ec-bab4-4cc6-8526-00010a1bfb41")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 137.16 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bfb423c-39a2-4814-994d-d8ec6e2fa053")
+		(property "Reference" "D1"
+			(at 139.7 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 139.7 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 141.605 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93a73f44-b885-4cb9-8bd4-903fe2343186")
+		)
+		(pin "2"
+			(uuid "4e5d02f8-8991-42c0-8cf5-8a6b9a165eb9")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 167.64 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32e864aa-f784-4f46-a660-228ff0b14bf7")
+		(property "Reference" "D8"
+			(at 170.18 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 170.18 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 172.085 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a405acb-24fb-4d89-96fc-835580e6824c")
+		)
+		(pin "2"
+			(uuid "284a1556-5533-44da-8b47-fbe22ce572a0")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
+		(at 185.42 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3da33f30-230c-4cc3-bf7d-04b5bd36b8bc")
+		(property "Reference" "SW7"
+			(at 185.42 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS526_SK15_SMTR2_LFS"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:PTS526SK15SMTR2LFS"
+			(at 175.768 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
+			(at 174.498 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tact 5.2 x 5.2, 1.5 mm H, 260gf, G leads, No ground pin, metal actuator"
+			(at 174.498 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.65"
+			(at 174.498 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 174.498 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
+			(at 174.498 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
+			(at 174.498 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
+			(at 174.498 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTS526 SK15 SMTR2 LFS"
+			(at 174.498 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pts526-sk15-smtr2-lfs/ck?region=nac"
+			(at 174.498 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7422858-b74f-4008-af80-78c7c91852ea")
+		)
+		(pin "3"
+			(uuid "46cf6222-55a3-4fc0-83b7-ccf869abdd73")
+		)
+		(pin "1"
+			(uuid "e6ad660a-b1cf-48d5-8f53-ba9c8e390162")
+		)
+		(pin "4"
+			(uuid "14cf021d-a656-4933-989b-bff5865959bc")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 167.64 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5508ad04-71f3-480d-a218-81d582592131")
+		(property "Reference" "D7"
+			(at 170.18 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 170.18 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 172.085 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13f8ca6b-50ee-4598-97ac-c4d621cddcb9")
+		)
+		(pin "2"
+			(uuid "7dc9a6d7-26f6-45b4-8f38-ea2b485c8a65")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
+		(at 153.67 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a777a5-f17c-4ac3-ac13-c68be0742742")
+		(property "Reference" "SW3"
+			(at 153.67 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS526_SK15_SMTR2_LFS"
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:PTS526SK15SMTR2LFS"
+			(at 144.018 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
+			(at 142.748 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tact 5.2 x 5.2, 1.5 mm H, 260gf, G leads, No ground pin, metal actuator"
+			(at 142.748 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.65"
+			(at 142.748 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 142.748 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
+			(at 142.748 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
+			(at 142.748 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
+			(at 142.748 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTS526 SK15 SMTR2 LFS"
+			(at 142.748 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pts526-sk15-smtr2-lfs/ck?region=nac"
+			(at 142.748 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78021318-edba-4a9e-9bfc-88f82a0fd20b")
+		)
+		(pin "3"
+			(uuid "9cb90498-d369-4f5d-866b-f6fea8ec81d3")
+		)
+		(pin "1"
+			(uuid "81696338-d0b2-450b-a8bc-fc2e2c67b850")
+		)
+		(pin "4"
+			(uuid "e8355708-cc63-4ef9-8565-8e26c99b1af7")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
+		(at 154.94 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "727c04df-fcf5-4a33-b94b-bfd5f52ce7c2")
+		(property "Reference" "SW9"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS526_SK15_SMTR2_LFS"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:PTS526SK15SMTR2LFS"
+			(at 145.288 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
+			(at 144.018 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tact 5.2 x 5.2, 1.5 mm H, 260gf, G leads, No ground pin, metal actuator"
+			(at 144.018 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.65"
+			(at 144.018 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 144.018 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
+			(at 144.018 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
+			(at 144.018 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
+			(at 144.018 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTS526 SK15 SMTR2 LFS"
+			(at 144.018 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pts526-sk15-smtr2-lfs/ck?region=nac"
+			(at 144.018 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c79726c-b9c9-478e-92e9-596938ccf91f")
+		)
+		(pin "3"
+			(uuid "0ca60f23-7159-4765-8fb9-41ea1552aa52")
+		)
+		(pin "1"
+			(uuid "68152307-ec50-4b12-8be5-8c93efcf5418")
+		)
+		(pin "4"
+			(uuid "d38b64bc-b03d-443b-824c-bf2adc624512")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
+		(at 125.73 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a254842-b1e5-418a-b8d6-44f97e8d1922")
+		(property "Reference" "SW8"
+			(at 125.73 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS526_SK15_SMTR2_LFS"
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:PTS526SK15SMTR2LFS"
+			(at 116.078 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
+			(at 114.808 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tact 5.2 x 5.2, 1.5 mm H, 260gf, G leads, No ground pin, metal actuator"
+			(at 114.808 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.65"
+			(at 114.808 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 114.808 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
+			(at 114.808 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
+			(at 114.808 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
+			(at 114.808 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTS526 SK15 SMTR2 LFS"
+			(at 114.808 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pts526-sk15-smtr2-lfs/ck?region=nac"
+			(at 114.808 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c445fb41-2ee9-495e-94c1-bd2620afe2ca")
+		)
+		(pin "3"
+			(uuid "bf37f289-d67f-4b2d-b4d8-120e5e9ab378")
+		)
+		(pin "1"
+			(uuid "5e06a9b3-8bad-4715-ab6b-c0b9ad89fc55")
+		)
+		(pin "4"
+			(uuid "53a0310b-925a-43ce-9712-e85028130506")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 196.85 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd949d3-cc11-40bf-951e-6e84ca7dec1c")
+		(property "Reference" "D9"
+			(at 199.39 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 199.39 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 201.295 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acd814c2-d6fa-423d-8f6b-12691a362245")
+		)
+		(pin "2"
+			(uuid "0e29febb-9a64-44bf-bdb5-01f7a9078cbe")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
+		(at 125.73 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ef910de-a6d3-4631-b9c6-60ee0cf6fdc4")
+		(property "Reference" "SW5"
+			(at 125.73 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS526_SK15_SMTR2_LFS"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:PTS526SK15SMTR2LFS"
+			(at 116.078 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
+			(at 114.808 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tact 5.2 x 5.2, 1.5 mm H, 260gf, G leads, No ground pin, metal actuator"
+			(at 114.808 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.65"
+			(at 114.808 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 114.808 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
+			(at 114.808 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
+			(at 114.808 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
+			(at 114.808 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTS526 SK15 SMTR2 LFS"
+			(at 114.808 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pts526-sk15-smtr2-lfs/ck?region=nac"
+			(at 114.808 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f12dc9f-6ebd-42cd-8db6-afe99ef86898")
+		)
+		(pin "3"
+			(uuid "846f19dc-aa6a-4e3c-b23f-51974618f8df")
+		)
+		(pin "1"
+			(uuid "cf32d91d-e411-4477-a5e2-aa9a3440e765")
+		)
+		(pin "4"
+			(uuid "8727c3f2-0b99-4c06-81cb-d5c3a5aa0604")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 196.85 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "924bcb5c-0b5c-41d2-9ced-af19bc2fd01c")
+		(property "Reference" "D10"
+			(at 199.39 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 199.39 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 201.295 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3b4c9e9-c8b5-402e-af64-72582a58754b")
+		)
+		(pin "2"
+			(uuid "ffb01e92-3892-4878-9704-66b33c917d14")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 167.64 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "994216d3-353f-4607-ba27-e016dc738d5d")
+		(property "Reference" "D6"
+			(at 170.18 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 170.18 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 172.085 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f21bc9c-e7bb-4866-aef0-1affc80482e7")
+		)
+		(pin "2"
+			(uuid "29fff8bf-2c16-4207-950e-4425dda24520")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
+		(at 124.46 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef271327-ba75-414a-87fb-cca05c73b47d")
+		(property "Reference" "SW2"
+			(at 124.46 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS526_SK15_SMTR2_LFS"
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:PTS526SK15SMTR2LFS"
+			(at 114.808 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
+			(at 113.538 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tact 5.2 x 5.2, 1.5 mm H, 260gf, G leads, No ground pin, metal actuator"
+			(at 113.538 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.65"
+			(at 113.538 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 113.538 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
+			(at 113.538 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
+			(at 113.538 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
+			(at 113.538 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTS526 SK15 SMTR2 LFS"
+			(at 113.538 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pts526-sk15-smtr2-lfs/ck?region=nac"
+			(at 113.538 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "420fcc4d-67ae-43b1-a4e6-3a70345da2ce")
+		)
+		(pin "3"
+			(uuid "d59c1cef-f97b-423f-9dd2-51c8a2639e09")
+		)
+		(pin "1"
+			(uuid "dddc0b07-291d-48cb-ac90-bae775fd760a")
+		)
+		(pin "4"
+			(uuid "a8c69e3b-9481-4beb-8aae-d5fd79596503")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 137.16 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2af2b91-8a3e-482d-831e-2ced4407a364")
+		(property "Reference" "D2"
+			(at 139.7 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 139.7 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 141.605 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13a27004-e160-4dff-be96-6becee2a82fa")
+		)
+		(pin "2"
+			(uuid "d5f82cc9-da59-442f-bb3a-875e171308af")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS526_SK15_SMTR2_LFS:PTS526_SK15_SMTR2_LFS")
+		(at 185.42 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd996357-65ca-45ad-a7cd-efcd542fc96c")
+		(property "Reference" "SW4"
+			(at 185.42 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS526_SK15_SMTR2_LFS"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:PTS526SK15SMTR2LFS"
+			(at 175.768 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
+			(at 174.498 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tact 5.2 x 5.2, 1.5 mm H, 260gf, G leads, No ground pin, metal actuator"
+			(at 174.498 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.65"
+			(at 174.498 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 174.498 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526 SK15 SMTR2 LFS"
+			(at 174.498 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS526SK15SMR2L"
+			(at 174.498 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SK15-SMTR2-LFS?qs=UXgszm6BlbF5Ezp94JAQtw%3D%3D"
+			(at 174.498 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PTS526 SK15 SMTR2 LFS"
+			(at 174.498 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pts526-sk15-smtr2-lfs/ck?region=nac"
+			(at 174.498 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34cf3c66-9f1e-4bf7-827c-13de0c895e98")
+		)
+		(pin "3"
+			(uuid "68cb81aa-45d6-49d5-8dd2-edd4e9f12416")
+		)
+		(pin "1"
+			(uuid "5ecf6a42-a92c-43ee-96af-6fd820b2b761")
+		)
+		(pin "4"
+			(uuid "6aaefa60-5e20-4d0b-9b53-b332b6ffd0d6")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 137.16 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe178a81-e359-4998-b055-dc84b332d35f")
+		(property "Reference" "D3"
+			(at 139.7 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 139.7 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 141.605 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf12e1e-18de-47ab-807d-d299d80f1bb4")
+		)
+		(pin "2"
+			(uuid "7b22ef3d-cad8-45a8-8152-b787285b5b4f")
+		)
+		(instances
+			(project "IFT-S3"
+				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c/821ec17e-daac-4a08-b354-fe6e9784cc45"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+			(project "IFT-C3"
+				(path "/e3c93ece-56b2-4766-bc1b-caef6c1437a3/1c384e73-769a-4946-a134-7f6899229544"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
