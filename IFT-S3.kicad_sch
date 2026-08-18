@@ -5642,7 +5642,7 @@
 			(uuid "d055b7fb-85c5-4e8a-ad8f-51a04923cde1")
 		)
 		(instances
-			(project ""
+			(project "IFT-S3"
 				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c"
 					(reference "J2")
 					(unit 1)
@@ -5734,7 +5734,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRFZ44N"
+		(property "Value" "IRLZ44N"
 			(at 247.65 149.8599 0)
 			(effects
 				(font
@@ -5754,7 +5754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c"
+		(property "Datasheet" ""
 			(at 246.38 152.4 0)
 			(effects
 				(font
@@ -5764,7 +5764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB"
+		(property "Description" ""
 			(at 241.3 148.59 0)
 			(effects
 				(font
@@ -5783,7 +5783,7 @@
 			(uuid "d6058d53-246d-4d9f-8fd6-3fb79a68389f")
 		)
 		(instances
-			(project ""
+			(project "IFT-S3"
 				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c"
 					(reference "Q3")
 					(unit 1)
@@ -6224,7 +6224,7 @@
 			(uuid "c2820b25-3378-4e9b-b73a-a43ec4926da5")
 		)
 		(instances
-			(project ""
+			(project "IFT-S3"
 				(path "/9106ad3b-5dea-4727-91ce-50cc3919a94c"
 					(reference "U1")
 					(unit 1)
